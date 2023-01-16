@@ -1,17 +1,24 @@
-# DAA-AppWdiget
+# DAA-AppWidget
 
-# Introduction
+## Introduction
+Dans le cadre du cours DAA (Développement d'Applications Android) de la HEIG-VD, nous devons explorer et étudier une fonctionnalitée avancée d'Android. Nous avons choisi d'étudier les `AppWidgets`. Ce travail est réalisé en groupe de 3 personnes.
 
-# Fonctionnalité
+## Auteurs
+* Stéphane Marengo
+* Géraud Silverstri
+* Jonathan Friedli
 
-## But
 
-## Problèmes résolus
+## Fonctionnalité
 
-## Utilisation
+### But
 
-## Limitations
+### Problèmes résolus
 
-## Approches alternatives
+### Utilisation
 
-## Points importants
+### Limitations
+
+### Approches alternatives
+
+### Points importants
