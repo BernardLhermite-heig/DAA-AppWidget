@@ -24,6 +24,7 @@ Il existe plusieurs types de widgets:
 Les widgets d'informations, comme celui de l'horloge, vont afficher des informations en temps réel. 
 
 Exemple:
+
 ![Exemple de widget](doc/accueil.jpg)
 
 Ici, nous avons un widget de l'application "horloge" donnant l'heure et la date sur l'écran d'accueil du téléphone. Nous pouvons cliquer dessus afin d'ouvrir ladite application.
