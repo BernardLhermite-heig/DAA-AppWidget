@@ -74,7 +74,7 @@ Les notifications sont une alternative aux widgets. Elles sont plus flexibles et
 
  Au niveau de la batterie, plus il y a de notifications, plus la batterie se drainera vite. Cela limite donc le nombre de notifications envoyable à l'utilisateur.
 
-![Notifications](doc/notifitcations.jpg)
+![Notifications](doc/notifications.jpg)
 
 #### **Live wallpapers**
 Les `lives wallpapers` sont des fond d'écran animés et interactifs. Il est par exemple possible de mettre une vidéo en fond d'écran et de mettre à disposition des boutons pour avancer/reculer ou baisser le son, etc.
@@ -99,8 +99,12 @@ Dans cet exemple, nous allons réaliser un widget affichant l'heure en temps ré
 
 ### Sources
 [Documentation officielle d'Android sur les App Widgets](https://developer.android.com/develop/ui/views/appwidgets/overview)
-* https://stuff.mit.edu/afs/sipb/project/android/docs/design/patterns/widgets.html
-* https://m2.material.io/design/platform-guidance/android-widget.html
+
+[Documentation Android du MiT pour les élèves](https://stuff.mit.edu/afs/sipb/project/android/docs/design/patterns/widgets.html)
+
+[Documentation de material design](https://m2.material.io/design/platform-guidance/android-widget.html)
+
+[Articles sur les widgets de electronicshub](https://www.electronicshub.org/what-is-a-widget/)
 
 [Documentation officielle d'Android sur les notifications](https://developer.android.com/develop/ui/views/notifications)
 
