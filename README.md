@@ -25,6 +25,7 @@ Les widgets d'informations, comme celui de l'horloge, vont afficher des informat
 
 Exemple:
 ![Exemple de widget](doc/accueil.jpg)
+
 Ici, nous avons un widget de l'application "horloge" donnant l'heure et la date sur l'écran d'accueil du téléphone. Nous pouvons cliquer dessus afin d'ouvrir ladite application.
 
 D'autres exemple de Widgets d'information sont les widgets de météo, de nouvelles et de résultats sportifs. Ces widgets pourront être mis à jour quand de nouvelles informations sont disponibles.
