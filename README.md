@@ -9,7 +9,7 @@ Dans le cadre du cours DAA (Développement d'Applications Android) de la HEIG-VD
 * Jonathan Friedli
 
 ## Description
-Les Widgets sont une sorte de vue d'une application concrète. Ils reprennent souvent la fonctionnalité principale et nous permettent de l'utiliser sans ouvrir l'application. Principalement utilisé dans l'écran d'accueil, ils peuvent être customisé et déplacé. Ils peuvent également être présent sur les écrans de verrouillage.
+Les Widgets sont une vue d'une application concrète. Ils reprennent souvent la fonctionnalité principale et nous permettent d'afficher des informations de ladite application. Principalement utilisé dans l'écran d'accueil, ils peuvent être customisé et déplacé. Ils peuvent également être présent sur les écrans de verrouillage.
 
 Ils sont également très utile comme publicité pour notre application. En effet, en affichant des informations attirantes, nous allons inciter l'utilisateur à ouvrir notre application.
 
@@ -91,9 +91,9 @@ Il est important de bien savoir mettre en place un `live wallpaper`, sinon il y 
 Niveau batterie, la consommation est minime, aucune différence ne sera remarquée lorsque l'on en utilise un.
 
 #### **Raccourcis**
-Les raccourcis permettent à l'utilisateur d'ouvrir une application directement sur une fonctionalité de celle-ci. Cela permet de gagner du temps et d'éviter de naviguer dans l'application pour accéder à la fonctionalité désirée. Un exemple commun est un raccourci qui ouvre directement sur la page d'envoi d'un nouveau mail.
+Les raccourcis permettent à l'utilisateur d'ouvrir une application directement sur une activité spécifique de celle-ci. Cela permet de gagner du temps et d'éviter de naviguer dans l'application pour accéder à la fonctionalité désirée. Un exemple commun est un raccourci qui ouvre directement sur la page d'envoi d'un nouveau mail.
 
-Les raccourcis sont très simples à mettre en place et sont très pratiques pour l'utilisateur. Cependant, ils ne permettent pas de faire des interactions complexes. De plus, une écran d'accueil supporte au plus 4 raccourcis.
+Les raccourcis sont très simples à mettre en place et sont très pratiques pour l'utilisateur. Cependant, ils ne permettent pas de faire des interactions complexes.
 
 Etant donné que les raccourcis sont des applications à part entière et qu'ils sont lancés à chaque fois que l'utilisateur clique dessus, ils consomment de la batterie.
 
