@@ -9,7 +9,7 @@ Dans le cadre du cours DAA (Développement d'Applications Android) de la HEIG-VD
 * Jonathan Friedli
 
 ## Description
-Les Widgets sont une sorte de vue d'une application concrète. Ils reprennent souvent la fonctionnalité principale et nous permettent de l'utiliser sans ouvrir l'application. Principalement utilisé dans l'écran d'accueil, ils peuvent être customisé et déplacé. Ils peuvent également être présent sur les écrans vérouillés.
+Les Widgets sont une sorte de vue d'une application concrète. Ils reprennent souvent la fonctionnalité principale et nous permettent de l'utiliser sans ouvrir l'application. Principalement utilisé dans l'écran d'accueil, ils peuvent être customisé et déplacé. Ils peuvent également être présent sur les écrans de verrouillage.
 
 Ils sont également très utile comme publicité pour notre application. En effet, en affichant des informations attirantes, nous allons inciter l'utilisateur à ouvrir notre application.
 
@@ -21,7 +21,7 @@ Il existe plusieurs types de widgets:
 
 
 ### Widgets d'informations
-Les widgets d'informations, comme celui de l'horloge, vont afficher des informations en temps réel. 
+Les widgets d'informations, comme celui de l'horloge, sont des widgets informatifs. Ils vont se mettre à jours quand il y a de nouvelles informations (au maximum une fois par minute).
 
 Exemple:
 
@@ -35,7 +35,8 @@ D'autres exemple de Widgets d'information sont les widgets de météo, de nouvel
 Les widgets de contrôle, comme le widget de spotify, vont permettre de controller et de changer certains états. Dans le cas du widget de musique, nous pouvons changer de musiquer, mettre la musique sur play/pause ou changer le volume sonore.
 
 Exemple:
-Widget de l'application Spotify. Ce dernier se trouve sur l'écran vérouillé de notre téléphone. 
+Widget de l'application Spotify. Ce dernier se trouve sur l'écran de verrouillage de notre téléphone. 
+
 ![Widget spotify](doc/spotifyWidget.jpg)
 
 Un autre exemple de widget de contrôle est le widget du "curseur de volume" permettant de gérer les différents niveau sonores de notre téléphone (volume des notifications, volumes des médias, etc...).
@@ -52,7 +53,7 @@ Un autre exemple des wigets de collection serait un widgets affichant les films 
 Nous venons de voir les 3 principaux types de widgets mais dans la réalité, la plupart des widgets sont des combinaisons de ces 3 types. Notre exemple sur le widget de spotify est en fait un widget hybrid. En effet, bien qu'étant principalement un widget de contrôle, il est également un widget d'information puisqu'il tient à jour l'information de la musique en cours de lecture. 
 
 ## Problèmes résolus
-L'intéret princpal des widgets est l'accessiblité. En effet, l'accès rapide à une fonctionnalité ou à des informmations importantes est très pratique. Imaginez à quel point ce serait pénible si pour changer de musique, nous devions dévérouiller notre téléphone, ouvrir l'application spotify, chercher la musique que nous voulons écouter, la mettre en lecture, etc. Avec ce widget, nous pouvons changer de musique en 2 secondes.
+L'intéret princpal des widgets est l'accessiblité. En effet, l'accès rapide à une fonctionnalité ou à des informmations importantes est très pratique. Imaginez à quel point ce serait pénible si pour changer de musique, nous devions déverrouiller notre téléphone, ouvrir l'application spotify, chercher la musique que nous voulons écouter, la mettre en lecture, etc. Avec ce widget, nous pouvons changer de musique en 2 secondes.
 
 Un autre avantage est que le widget consomme moins de ressource que l'application. Par conséquent, nous utiliserons moins de batterie et de mémoire vive, si nous pouvons nous passer d'ouvrir l'application.
 
@@ -75,6 +76,8 @@ Les notifications sont une alternative aux widgets. Elles sont plus flexibles et
  Les limitations de cette alternative est que le nombre de notifications pouvant être envoyées est limité et dépendant du téléphone de l'utilisateur. De plus, il y a une limite sur le nombre d'update par secondes possible.
 
  Au niveau de la batterie, plus il y a de notifications, plus la batterie se drainera vite. Cela limite donc le nombre de notifications envoyable à l'utilisateur.
+
+ Exemple de notification:
 
 ![Notifications](doc/notifications.jpg)
 
