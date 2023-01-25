@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">TestWidget</string>
+    <string name="app_name">TimeWidget</string>
+    <string name="widget_description">Ceci est une horloge</string>
+    <string name="appwidget_button_text">OK</string>
+    <string name="appwidget_default_text">21:58</string>
+    <string name="configure_title">Format</string>
+    <string name="validate_configuration">Valider</string>
+    <string name="app_widget_description">Ce widget permet d\'afficher l\'heure</string>
+    <string name="radio_12">12h</string>
+    <string name="radio_24">24h</string>
+    <string name="no_radio_selected">Veuillez choisir un format</string>
 </resources>
